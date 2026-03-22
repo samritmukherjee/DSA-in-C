@@ -10,8 +10,11 @@ void swap(int *a, int *b)
   {
     int x, y;
 
-    printf("Enter two integers: ");
-    scanf("%d %d", &x, &y);
+    printf("Enter two integers:- \n");
+    printf("x=");
+    scanf("%d", &x);
+    printf("y=");
+    scanf("%d", &y);
 
     printf("Before swapping: x = %d, y = %d\n", x, y);
 

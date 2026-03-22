@@ -13,13 +13,17 @@ void swap(int a, int b)
   {
     int x, y;
 
-    printf("Enter two integers: ");
-    scanf("%d %d", &x, &y);
-    
+    printf("Enter two integers:- \n");
+    printf("x=");
+    scanf("%d", &x);
+    printf("y=");
+    scanf("%d", &y);
+
+    printf("Inside Main before swapping: x = %d, y = %d\n", x, y);
+
     swap(x, y);
     
     printf("Inside Main after swapping: x = %d, y = %d\n", x, y);
 
-    swap(x, y);
     return 0;
  }

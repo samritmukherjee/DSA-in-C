@@ -25,7 +25,7 @@ Stack implementation using a fixed-size array:
 Queue implementation using a fixed-size array:
 - Enqueue operation (add elements to rear)
 - Dequeue operation (remove elements from front)
-- Display queue contents
+- Display queue contents in linear order
 - Overflow and underflow detection with size limit of 5
 
 #### **CircularQueueUsingswitch.c**
